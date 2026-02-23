@@ -1,7 +1,3 @@
--- You can add your own plugins here or in other files in this directory!
---  I promise not to create any merge conflicts in this directory :)
---
--- See the kickstart.nvim README for more information
 return {
   {
     'folke/snacks.nvim',
@@ -12,6 +8,7 @@ return {
       -- your configuration comes here
       -- or leave it empty to use the default settings
       -- refer to the configuration section below
+      dashboard = { enabled = true },
       bigfile = { enabled = true },
       dashboard = { enabled = true },
       explorer = { enabled = true },
@@ -24,6 +21,7 @@ return {
       scroll = { enabled = true },
       statuscolumn = { enabled = true },
       words = { enabled = true },
+      lazygit = { enabled = true },
     },
   },
 }
